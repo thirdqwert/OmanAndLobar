@@ -8,10 +8,10 @@ const TextSlide = () => {
             <div>
                 <div className={s.texts}>
                     <Marquee direction="right" autoFill={true} speed={30} className={s.text}>
-                        <p className={s.text} style={{marginLeft: '30px'}}>- I love you - Ti amo - Ich liebe dich - Je t’aime </p>
+                        <p className={s.text} style={{marginLeft: '13px'}}> - I love you - Ti amo - Ich liebe dich - Je t’aime </p>
                     </Marquee>
                     <Marquee direction="right" autoFill={true} speed={30} className={s.text}>
-                        <p className={s.text} style={{marginLeft: '30px'}}>- Men seni sevaman - Я тебя люблю - Te quiero </p>
+                        <p className={s.text} style={{marginLeft: '13px'}}> - Men seni sevaman - Я тебя люблю - Te quiero </p>
                     </Marquee>
                 </div>
             </div>

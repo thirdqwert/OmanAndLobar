@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 const Intro = () => {
     const { i18n, t } = useTranslation()
-    const [currentLng, setCurrentLng] = useState('ru')
+    const [currentLng, setCurrentLng] = useState('en')
     const changeLng = (lng) => {
         i18n.changeLanguage(lng).then(() => {
             setCurrentLng(lng)
