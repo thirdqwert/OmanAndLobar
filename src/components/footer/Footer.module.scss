@@ -34,6 +34,9 @@ footer {
         z-index: 1;
 
         .texts {
+            z-index: 1;
+            position: relative;
+
             p {
                 font-size: 64px;
                 color: #000;

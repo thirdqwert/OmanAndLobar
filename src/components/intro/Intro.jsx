@@ -3,7 +3,7 @@ import frame from '../../assets/img/header_bg.png'
 import names from '../../assets/img/intor_names.svg'
 import names_en from '../../assets/img/names_en.png'
 // import hands from '../../assets/img/hands.png'
-import hands_video from '../../assets/img/video_hands.MOV'
+import hands_video from '../../assets/img/video_hands.mp4'
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 const Intro = () => {
@@ -35,7 +35,7 @@ const Intro = () => {
                 </div>
                 <div className={s.intro__hands}>
                     {/* <img src={hands} alt="" /> */}
-                    <video src={hands_video} autoPlay={true} muted></video>
+                    <video webkit-playsinline src={hands_video} autoPlay={true} muted playsinline></video>
                 </div>
             </div>
         </>
