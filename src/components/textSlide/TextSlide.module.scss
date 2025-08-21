@@ -1,0 +1,23 @@
+.texts {
+    padding-top: 90px;
+    transform: rotate(3deg);
+
+    @media (max-width:1080px) {
+        padding-top: 10vw;
+    }
+
+    @media (max-width:1080px) {
+        padding-top: 15vw;
+    }
+}
+
+.text {
+    font-family: 'TheArtist';
+    font-weight: 400;
+    font-size: 75px;
+    color: black;
+
+    @media (max-width:1080px) {
+        font-size: 6.5vw;
+    }
+}

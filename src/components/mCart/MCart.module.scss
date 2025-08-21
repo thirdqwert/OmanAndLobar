@@ -1,0 +1,12 @@
+.marriage__cart {
+    position: relative;
+    z-index: 1;
+    img {
+        width: 100%;
+        vertical-align: middle;
+
+        // @media (max-width:575px) {
+        //     transform: scale(1.3);
+        // }
+    }
+}
